@@ -3,11 +3,15 @@ import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
+    { title: "MDG Web Application" },
     { name: "description", content: "Welcome to React Router!" },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    // <div style={app.css}></div>
+    <div className="screenContainer">MDG Web Application</div>
+  );
+  // return <Welcome />;
 }
