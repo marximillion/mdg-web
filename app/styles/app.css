@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import "tailwindcss";
+
+/* GLobal */
+html {
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+h1 {
+  font-family: "Black Ops One", sans-serif;
+}
+
+/* Home */
+.screenContainer {
+  background-color: #125687;
+  height: 100vh;
+  padding: 10px 10px 10px 10px;
+  width: 100vw;
+}
+
+.bannerContainer {
+  background-image: url("../assets/logo-lab3-white.png");
+  background-color: #125687;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 30px;
+}
+
+.formContainer { 
+  background-color: rgb(255, 255, 224, 0.25);
+  border-radius: 30px;
+  margin: 30px 30px 30px 30px;
+  padding: 20px 20px 20px 20px;
+}
+
+.field {
+  border-width: 1px;
+  border-radius: 10px;
+  font-family: "Black Ops One", sans-serif;
+  margin: 0px 0px 20px 0px;
+  padding: 5px 5px 5px 5px;
+  width: 100%;
+}
+
+.button {
+  border-radius: 1rem;       
+  background-color:chocolate;
+  color: white;                  /* text-white */
+  cursor: pointer;               /* show pointer on hover */
+  display: block;       /* make it a block-level element */
+  font-weight: 600;              /* font-semibold */
+  margin: auto;
+  padding: 0.5rem 1rem 0.5rem 1rem;        
+  transition: background-color 0.2s; /* smooth hover transition */
+}
+
+.button:hover {
+  background-color: #125687;    /* hover:bg-blue-600 */
+}
