@@ -17,14 +17,21 @@ export default function Home() {
       <div className="formContainer">
         <form onSubmit={() => {}}>
           <h1>{"First Name"}</h1>
-          <input className="field" type="text" name="query" placeholder="Enter first name" />
+          <input
+            className="field"
+            type="text"
+            name="query"
+            placeholder="Enter first name"
+          />
           <h1>{"Last Name"}</h1>
-          <input className="field" type="text" name="query" placeholder="Enter last name"/>
+          <input
+            className="field"
+            type="text"
+            name="query"
+            placeholder="Enter last name"
+          />
         </form>
-        <button
-          type="submit"
-          className="button"
-        >
+        <button type="submit" className="button">
           {"Submit"}
         </button>
       </div>

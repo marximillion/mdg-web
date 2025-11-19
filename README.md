@@ -16,6 +16,13 @@ A modern, production-ready template for building full-stack React applications u
 
 ## Getting Started
 
+- choco 2.5.1
+- node 25.0.0
+- npx/npm 11.6.2
+- React 19.1.1
+- React Router 7.9.2
+- Windows 11
+
 ### Installation
 
 Install the dependencies:
