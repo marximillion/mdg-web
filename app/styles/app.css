@@ -5,7 +5,11 @@
 html {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
+    height: 100%;
   }
+}
+body {
+  height: 100%;
 }
 h1 {
   font-family: "Black Ops One", sans-serif;
@@ -14,25 +18,29 @@ h1 {
 /* Home */
 .screenContainer {
   background-color: #125687;
-  height: 100vh;
-  padding: 10px 10px 10px 10px;
-  width: 100vw;
+  /* flex: 1; */
+  height: 100%;
+  padding: 0.75rem;
+  width: 100%;
 }
 
 .bannerContainer {
-  background-image: url("../assets/logo-lab3-white.png");
-  background-color: #125687;
+  background-image: url("../assets/logo-main.svg");
+  background-color: #faedd6;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 30px;
+  border-radius: 30px;
+  height: 100px;
+  margin-bottom: 20px;
 }
 
-.formContainer { 
+.formContainer {
   background-color: rgb(255, 255, 224, 0.25);
   border-radius: 30px;
   margin: 30px 30px 30px 30px;
   padding: 20px 20px 20px 20px;
+  align-self: center;
 }
 
 .field {
@@ -45,17 +53,17 @@ h1 {
 }
 
 .button {
-  border-radius: 1rem;       
-  background-color:chocolate;
-  color: white;                  /* text-white */
-  cursor: pointer;               /* show pointer on hover */
-  display: block;       /* make it a block-level element */
-  font-weight: 600;              /* font-semibold */
+  border-radius: 1rem;
+  background-color: chocolate;
+  color: white; /* text-white */
+  cursor: pointer; /* show pointer on hover */
+  display: block; /* make it a block-level element */
+  font-weight: 600; /* font-semibold */
   margin: auto;
-  padding: 0.5rem 1rem 0.5rem 1rem;        
+  padding: 0.5rem 1rem 0.5rem 1rem;
   transition: background-color 0.2s; /* smooth hover transition */
 }
 
 .button:hover {
-  background-color: #125687;    /* hover:bg-blue-600 */
+  background-color: #125687; /* hover:bg-blue-600 */
 }

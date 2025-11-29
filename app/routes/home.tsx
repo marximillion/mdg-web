@@ -13,8 +13,8 @@ export default function Home() {
   const title = "Lab<3 Development";
   return (
     <div className="screenContainer">
-      <div className="bannerContainer" />
       <div className="formContainer">
+      <div className="bannerContainer" />
         <form onSubmit={() => {}}>
           <h1>{"First Name"}</h1>
           <input
